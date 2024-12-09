@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Krishna Anand's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+            <span>Krishna Anand</span>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <header>
+        <div class="intro">
+            <h1>Hello, I'm Krishna Anand</h1>
+            <p>Software Engineering Student | Web Developer | Aspiring Technologist</p>
+        </div>
+        <div class="profile-image">
+            <img src="images/profile.jpg" alt="Profile Image">
+        </div>
+    </header>
+
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a software engineering student with a passion for coding and web development. I enjoy solving logical problems and am keen on developing my skills to create effective solutions that utilize technology to address real-world issues. My goal is to deepen my knowledge in these areas and contribute to impactful projects in the tech industry.</p>
+        <p>Alongside my technical pursuits, I have a keen interest in finance, recognizing its significance in today's economy. In my free time, I write poetry as a creative outlet and have a background in music from playing the trumpet during my school years.</p>
+        <p>Currently studying at Manipal Institute of Technology, pursuing BTech in Computer and Communication Engineering (2023-27).</p>
+    </section>
+
+    
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="images/c.png" alt="C">
+                <h3>C</h3>
+                <div class="progress-bar" style="width: 90%; background-color: #4CAF50;"></div> <!-- Green for 90% -->
+            </div>
+            <div class="skill">
+                <img src="images/cpp.png" alt="C++">
+                <h3>C++</h3>
+                <div class="progress-bar" style="width: 80%; background-color: #2196F3;"></div> <!-- Blue for 80% -->
+            </div>
+            <div class="skill">
+                <img src="images/java.jpg" alt="Java">
+                <h3>Java</h3>
+                <div class="progress-bar" style="width: 90%; background-color: #FF9800;"></div> <!-- Orange for 90% -->
+            </div>
+            <div class="skill">
+                <img src="images/html.png" alt="HTML">
+                <h3>HTML</h3>
+                <div class="progress-bar" style="width: 80%; background-color: #FF5722;"></div> <!-- Orange for 80% -->
+            </div>
+            <div class="skill">
+                <img src="images/css.png" alt="CSS">
+                <h3>CSS</h3>
+                <div class="progress-bar" style="width: 60%; background-color: #00BCD4;"></div> <!-- Cyan for 60% -->
+            </div>
+            <div class="skill">
+                <img src="images/js.jpg" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <div class="progress-bar" style="width: 40%; background-color: #FFC107;"></div> <!-- Yellow for 40% -->
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <div class="experience-item">
+                <img src="images/iste.jpg" alt="ISTE Logo"> 
+                <h3>Work Committee Member, ISTE</h3>
+                <p>October 2023 - July 2024</p>
+                <p>Worked on planning and executing events and volunteering and promotion of events.</p>
+            </div>
+            <div class="experience-item">
+                <img src="images/iste.jpg" alt="ISTE Logo"> 
+                <h3>Managing Committee Member, ISTE</h3>
+                <p>August 2024 - Present</p>
+                <p>Involved in organizing and leading projects and events for the ISTE community.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p><strong>Manipal Institute of Technology</strong><br>
+        BTech in Computer and Communication Engineering (2023 - 2027)</p>
+    </section>
+
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p id="error-message"></p>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Krishna Anand. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/krishnaanand0" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/krishna-086" target="_blank"><img src="images/github.jpg" alt="GitHub"></a>
+            <a href="mailto:krishnanand86654@gmail.com" target="_blank"><img src="images/email.jpg" alt="Email"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
